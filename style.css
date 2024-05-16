@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #02043617;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: greenyellow;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background:black;
+    position: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    background-color: #fff;
+    position: center;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+#profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.main-content {
+    display: flex;
+    gap: 20px; /* Espace entre les deux colonnes */
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff; /* Texte en blanc pour mieux contraster avec le fond coloré */
+}
+
+.purple {
+    background-color: #8a2be2; /* Couleur violet */
+}
+
+.blue {
+    background-color: #1e90ff; /* Couleur bleu */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #fff; /* Bordure blanche pour les titres de section */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.job, .education-item {
+    margin-bottom: 10px;
+}
+
+.job h3, .education-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.job h4, .education-item h4 {
+    margin: 0;
+    font-size: 1em;
+    color: #eee; /* Couleur de texte plus claire pour les sous-titres */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.2); /* Fond légèrement transparent */
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
